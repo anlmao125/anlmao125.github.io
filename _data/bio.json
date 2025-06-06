@@ -1,18 +1,17 @@
 {
   "basics": {
-    "name": "Molly Maluhia",
+    "name": "Anlon Mao",
     "label": "Student",
     "picture": "https://github.com/kambergjohnson.png",
-    "email": "molly@hawaii.edu",
-    "phone": "808-333-4444",
-    "website": "https://mmaluhia.github.io",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2024.",
-    "location": { "address": "", "postalCode": "96822", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
+    "email": "anlonm@hawaii.edu",
+    "phone": "(808)258-4643",
+    "website": "https://anlmao125.github.io",
+    "summary": "I'm a Computer Science undergraduate at UH Mānoa currently on an accelerated academic path. By Fall 2025, I plan to apply to both the BAM (B.S./M.S.) program and the Korean Flagship Program. I'm on track to complete my B.S. by Spring 2027, and aim to earn a B.A. in Korean for Professionals and an M.S. in Computer Science by 2028.",
+    "location": { "address": "", "postalCode": "96817", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
     "profiles": [
-      { "network": "github", "username": "mmaluhia", "url": "http://github.com/changeme" },
-      { "network": "linkedin", "username": "mollymaluhia", "url": "http://linkedin.com/in/changeme" },
-      { "network": "twitter", "username": "mollymal", "url": "http://twitter.com/changeme" },
-      { "network": "instagram", "username": "molly", "url": "http://instagram.com/changeme" }
+      { "network": "github", "username": "anlmao125", "url": "http://github.com/changeme" },
+      { "network": "linkedin", "username": "Anlon Mao", "url": "https://www.linkedin.com/in/anlon-mao-475304352/" },
+      { "network": "instagram", "username": "anlmao125", "url": "http://instagram.com/changeme" }
     ]
   },
   "interests": [
