@@ -11,7 +11,7 @@ labels:
   - Reflection
 ---
 
-<img width="300px" class="rounded float-start pe-4" src="../img/difficulty/degree_difficulty.jpg">
+<img width="300px" class="rounded float-start pe-4" src="../img/TypeScriptReflection/Typescript-img.png">
 
 ## From Rusty to Refreshed: TypeScript Through a Veteran Newbie’s Eyes
 
