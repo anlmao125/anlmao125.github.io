@@ -15,16 +15,15 @@
     ]
   },
   "interests": [
-    { "name": "Interactive media" },
-    { "name": "Neuromorphic Computing" },
-    { "name": "Quantum Computing" },
-    { "name": "Robotics" },
-    { "name": "3D Graphics" }
+    { "name": "Computer Vision & Object Detection" },
+    { "name": "Machine Learning" },
+    { "name": "AI for Sports & Movement Analysis" },
+    { "name": "Game Development" }
   ],
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "keywords": [ "C", "C++", "Java", "Javascript", "Assembly", "Common Lisp" ]
+      "keywords": [ "Python", "C", "C++", "Java", "Javascript", "Typescript", "React Native" ]
     },
     {
       "name": "Toolsets/OS",
