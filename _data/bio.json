@@ -57,14 +57,14 @@
   ],
   "volunteer": [
     {
-      "organization": "",
-      "website": "",
-      "position": "",
-      "startDate": "",
-      "endDate": "",
-      "summary": "",
+      "organization": "UHM Game Dev",
+      "website": "https://acmmanoa.org/clubs/gamedev.html",
+      "position": "Coder",
+      "startDate": "2024",
+      "endDate": "Current",
+      "summary": "A passionate group dedicated to designing, building, and showcasing video games using Unity and various other tools.",
       "highlights": [
-        ""
+        "Interacted and collaborated with group members to develop systems for video games"
       ]
     }
   ],
