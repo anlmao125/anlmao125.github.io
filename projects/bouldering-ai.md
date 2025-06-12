@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/bouldering/bouldering-square.jpg
+image: img/bouldering-ai/bouldering-square.jpg
 title: "AI Bouldering Route Reader"
 date: 2025
 published: true
@@ -15,7 +15,7 @@ labels:
 summary: "Developing a mobile app that uses AI and computer vision to recognize bouldering routes from gym walls and assist climbers with route tracking and grading."
 ---
 
-<img class="img-fluid" src="../img/bouldering/bouldering-sample.jpg">
+<img class="img-fluid" src="../img/bouldering-ai/bouldering-sample.jpg">
 
 This project is an ongoing attempt to merge my passion for bouldering with computer vision and machine learning. The goal is to build a mobile app that can analyze images of indoor climbing walls, detect holds, and identify specific bouldering problems based on color, shape, and layout.
 
