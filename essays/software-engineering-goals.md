@@ -10,7 +10,7 @@ labels:
   - Technical Reflection
 ---
 
-<img width="300px" class="rounded float-start pe-4" src="../img/essays/mind-map.jpg">
+<img width="300px" class="rounded float-start pe-4" src="../img/software-engineering-goals/software-engineering-goals-photo.jpg">
 
 ## Building Systems That Work (and Don't Fall Apart)
 
