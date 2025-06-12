@@ -14,7 +14,7 @@ labels:
 summary: "Contributed to a narrative-driven game projecasadsadt as part of the UH Mānoa Game Dev club, developing the inventory system using Unity and C#."
 ---
 
-<img class="img-fluid" src="../img/tezcat/tezcat-screenshot.png">
+<img class="img-fluid" src="../img/tezcat/tezcat-screenshot.jpg">
 
 [Tezcat](https://uhmanoagamedev.itch.io/tezcat) is a 2D narrative puzzle game created by the UH Mānoa Game Dev club. The game explores themes of memory and identity through surreal environments, puzzle mechanics, and item-based interactions.
 
