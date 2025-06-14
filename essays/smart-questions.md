@@ -10,7 +10,7 @@ labels:
   - Software Engineering
 ---
 
-<img width="300px" class="rounded float-start pe-4" src="../img/essays/smart-question-example.jpg">
+<img width="300px" class="rounded float-start pe-4" src="../img/smart-questions/smart-questions-example.png">
 
 ## Why Asking Smart Matters
 
