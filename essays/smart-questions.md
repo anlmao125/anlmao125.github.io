@@ -63,10 +63,29 @@ This exercise made it clear that successful software engineers need to **communi
 
 Asking smart questions isn’t just about etiquette—it’s a **critical skill** for effective engineering. Whether I’m debugging JavaScript, working on AI bouldering apps, or collaborating in future teams, I’ll keep in mind:
 
-| Best Practices        | Why They Matter                            |
-|-----------------------|--------------------------------------------|
-| Provide minimal examples | Enables rapid, relevant responses        |
-| Explain the context     | Helps others tailor their answers         |
-| Be respectful and specific | Encourages helpful and enthusiastic replies |
+<div class="table-responsive">
+  <table class="table table-bordered">
+    <thead class="table-light">
+      <tr>
+        <th><strong>Best Practices</strong></th>
+        <th><strong>Why They Matter</strong></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Provide minimal examples</td>
+        <td>Enables rapid, relevant responses</td>
+      </tr>
+      <tr>
+        <td>Explain the context</td>
+        <td>Helps others tailor their answers</td>
+      </tr>
+      <tr>
+        <td>Be respectful and specific</td>
+        <td>Encourages helpful and enthusiastic replies</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 By practicing smart communication, I can accelerate my growth, reduce friction, and contribute more effectively to the software development community.
