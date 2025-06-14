@@ -9,8 +9,9 @@ labels:
   - StackOverflow
   - Software Engineering
 ---
-
-<img width="300px" class="rounded float-start pe-4" src="../img/smart-questions/smart-questions-example.png">
+<div class="text-center mb-4">
+  <img src="../img/smart-questions/smart-questions-example.png" class="img-fluid rounded" style="max-width: 500px;">
+</div>
 
 ## Why Asking Smart Matters
 
