@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/bouldering-ai/bouldering-square.jpg
+image: img/bouldering-ai/bouldering-square.png
 title: "AI Bouldering Route Reader"
 date: 2025
 published: true
