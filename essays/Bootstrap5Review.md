@@ -11,7 +11,7 @@ labels:
 ---
 
 <div class="text-center mb-4">
-  <img src="../img/bootstrap-vs-css.png" class="img-fluid rounded" style="max-width: 600px;" alt="Bootstrap vs CSS">
+  <img src="../img/Bootstrap5Review/bootstrap-vs-css.png" class="img-fluid rounded" style="max-width: 600px;" alt="Bootstrap vs CSS">
 </div>
 
 ## My First Impressions
@@ -49,7 +49,7 @@ When I recreated the [YMCA Honolulu website](https://www.ymcahonolulu.org) using
 But Bootstrap gave me a head start. The grid system made the layout responsive without media queries. The `btn` and `navbar` classes saved hours of styling.
 
 <div class="text-center mb-4">
-  <img src="../img/ymca-bootstrap-comparison.png" class="img-fluid rounded" style="max-width: 600px;" alt="YMCA Website Bootstrap recreation">
+  <img src="../img/Bootstrap5Review/ymca-bootstrap-comparison.png" class="img-fluid rounded" style="max-width: 600px;" alt="YMCA Website Bootstrap recreation">
 </div>
 
 ---
