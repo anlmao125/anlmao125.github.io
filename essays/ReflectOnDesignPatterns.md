@@ -10,7 +10,9 @@ labels:
   - Technical Reflection
 ---
 
-<img width="300px" class="rounded float-start pe-4 shadow" src="../img/design-patterns/blueprint.jpg" alt="Software Blueprint">
+<div class="text-center mb-4">
+  <img width="300px" class="rounded float-start pe-4 shadow" src="../img/design-patterns/blueprint.jpg" alt="Software Blueprint">
+</div>
 
 ## Building Without Blueprints (At First)
 
