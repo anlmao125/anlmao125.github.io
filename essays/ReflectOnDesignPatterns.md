@@ -11,7 +11,7 @@ labels:
 ---
 
 <div class="text-center mb-4">
-  <img width="300px" class="rounded float-start pe-4 shadow" src="../img/design-patterns/blueprint.jpg" alt="Software Blueprint">
+  <img width="300px" class="img-fluid rounded pe-4 shadow" src="../img/design-patterns/blueprint.jpg" alt="Software Blueprint">
 </div>
 
 ## Building Without Blueprints (At First)
