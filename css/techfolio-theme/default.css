@@ -3,12 +3,12 @@
 :root {
   --bs-font-sans-serif: "Open Sans", sans-serif;
   --bs-link-color: var(--bs-blue);
-  --tf-pill-bg: var(--bs-gray);
-  --tf-icon-fill: var(--bs-gray);
-  --tf-icon-hover: var(--bs-gray-500);
-  --tf-page-bg-color: var(--bs-white);
-  --tf-footer-bg-color: var(--bs-gray-200);
-  --tf-projects-bg-color: var(--bs-gray-100);
+  --tf-pill-bg: var(--bs-gray-600, #6c757d);
+  --tf-icon-fill: var(--bs-gray-600, #6c757d);
+  --tf-icon-hover: var(--bs-gray-800, #343a40);
+  --tf-page-bg-color: var(--bs-white, #ffffff);
+  --tf-footer-bg-color: var(--bs-gray-200, #e9ecef);
+  --tf-projects-bg-color: var(--bs-gray-100, #f8f9fa);
 }
 
 .tf-social {
@@ -16,26 +16,44 @@
   width: 1.5em;
   height: 1.5em;
   vertical-align: -.1em;
-  transition: color .2s ease, transform .2s ease;
   color: var(--tf-icon-fill);
   fill: currentColor;
   stroke: currentColor;
+  transition: color 0.2s ease, transform 0.2s ease;
 }
 
-.tf-social:hover,
-a:hover .tf-social {
+a:hover .tf-social,
+.tf-social:hover {
   color: var(--tf-icon-hover);
   transform: scale(1.05);
 }
 
-a { text-decoration: none; }
+.tf-social path,
+.tf-social use {
+  fill: currentColor;
+  stroke: currentColor;
+}
+
+a {
+  text-decoration: none;
+  color: var(--bs-link-color);
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: var(--bs-link-hover-color, #0a58ca);
+}
 
 @media (max-width: 500px) {
-  .navbar-brand { display: none; }
-  .navbar-brand-mobile { display: inline; }
+  .navbar-brand {
+    display: none;
+  }
+  .navbar-brand-mobile {
+    display: inline;
+  }
 }
 
 .card-footer {
-  background-color: var(--bs-white);
+  background-color: var(--bs-white, #ffffff);
   border-top: none;
 }
