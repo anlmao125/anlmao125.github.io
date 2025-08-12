@@ -1,59 +1,50 @@
+/* Default theme. Simple, yet elegant. */
+
+/* Use Open Sans as the default sans serif font. */
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,700|Source+Code+Pro:300,400,500,700");
 
+/* See https://getbootstrap.com/docs/5.2/customize/css-variables/#root-variables for variables to override. */
 :root {
   --bs-font-sans-serif: "Open Sans", sans-serif;
   --bs-link-color: var(--bs-blue);
-  --tf-pill-bg: var(--bs-gray-600, #6c757d);
-  --tf-icon-fill: var(--bs-gray-600, #6c757d);
-  --tf-icon-hover: var(--bs-gray-800, #343a40);
-  --tf-page-bg-color: var(--bs-white, #ffffff);
-  --tf-footer-bg-color: var(--bs-gray-200, #e9ecef);
-  --tf-projects-bg-color: var(--bs-gray-100, #f8f9fa);
+  --tf-pill-bg: var(--bs-gray);
+  --tf-icon-fill: var(--bs-gray);
+  --tf-icon-hover: var(--bs-gray-500);
+  --tf-page-bg-color: var(--bs-white);
+  --tf-footer-bg-color: var(--bs-gray-200);
+  --tf-projects-bg-color: var(--bs-gray-100);
 }
 
+/* Format social media icons */
 .tf-social {
   display: inline-block;
-  width: 1.5em;
+  fill: var(--tf-icon-fill);
   height: 1.5em;
   vertical-align: -.1em;
-  color: var(--tf-icon-fill);
-  fill: currentColor;
-  stroke: currentColor;
-  transition: color 0.2s ease, transform 0.2s ease;
+  width: 1.5em;
+  transition: 0.2s;
 }
 
-a:hover .tf-social,
 .tf-social:hover {
-  color: var(--tf-icon-hover);
-  transform: scale(1.05);
-}
-
-.tf-social path,
-.tf-social use {
-  fill: currentColor;
-  stroke: currentColor;
+  fill: var(--tf-icon-hover);
 }
 
 a {
   text-decoration: none;
-  color: var(--bs-link-color);
-  transition: color 0.2s ease;
-}
-
-a:hover {
-  color: var(--bs-link-hover-color, #0a58ca);
 }
 
 @media (max-width: 500px) {
   .navbar-brand {
     display: none;
   }
+
   .navbar-brand-mobile {
     display: inline;
   }
 }
 
+/* Simplify the styling of the bottom of Essay cards. */
 .card-footer {
-  background-color: var(--bs-white, #ffffff);
+  background-color: var(--bs-white);
   border-top: none;
 }
