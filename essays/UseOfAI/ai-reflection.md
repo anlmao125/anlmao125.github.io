@@ -13,99 +13,108 @@ labels:
 
 ## I. Introduction
 
-Artificial Intelligence (AI) has become an increasingly common tool in education, particularly in **software engineering**, where it can assist with coding, debugging, design, and even learning new concepts. In ICS 314, I interacted with various AI tools to enhance my workflow and understanding. The main AI tool I used was just **ChatGPT**. This essay will reflect on how I used AI in different parts of the course, how it impacted my learning, and how I see its role in future software engineering education.
+Artificial Intelligence (AI) has become a common tool in education, particularly in **software engineering**, where it can assist with coding, debugging, design, and learning new concepts. In ICS 314, I primarily used **ChatGPT** to improve my workflow and deepen my understanding of course material. This essay reflects on how I applied AI in different parts of the course, how it influenced my learning, and how I see its future role in software engineering education.
 
 ---
 
 ## II. Personal Experience with AI
 
-Below are my reflections for each course element, including examples of prompts I used and an evaluation of AI’s usefulness in each case.
+Below are my reflections for each course element, including example prompts and evaluations of AI’s usefulness.
 
-1. **Experience WODs (e.g., E44: Nextjs Hello World)**  
-   *Example:*  
-   Prompt: `"In the terminal output after running npx create-next-app, it says '129 packages are looking for funding — run npm fund for details.' What does 'funding' mean in this context?"`  
-   Reflection: *I was curious about some of the extra messages in the terminal that weren’t directly part of the assignment steps, so I asked AI what they meant. AI explained that the npm fund message is just letting me know that some of the packages I installed are from open-source projects that accept financial support. Running npm fund would list the links where I could contribute to the maintainers. While it didn’t affect the WOD itself, it gave me a better understanding of the open-source ecosystem behind the tools we use.*  
+1. **Experience WODs (e.g., E44: Next.js Hello World)**  
+   *Prompt:*  
+   `"In the terminal output after running npx create-next-app, it says '129 packages are looking for funding — run npm fund for details.' What does 'funding' mean in this context?"`  
+   *Reflection:* AI explained that this message indicates some installed packages are maintained by open-source projects that accept financial support. While unrelated to the WOD task itself, it improved my understanding of the open-source ecosystem and reminded me that every framework and library we use has maintainers working behind the scenes — often for free — to keep the tools we rely on functioning.
 
 2. **In-class Practice WODs**  
-   Prompt: `"Give me a beginner-friendly explanation of how Next.js works, including its folder structure, routing system, and how it differs from a regular React app."`  
-   Reflection: *For the Next.js in-class practice WODs, I noticed there wasn’t much extra material provided on where to learn more about the framework beyond the WOD instructions. I used AI to fill in the gaps — asking it to explain how Next.js works, what the /app directory does, and how the App Router changes routing compared to older Next.js versions. The AI also gave me a high-level overview of key features like server-side rendering and static site generation. This helped me understand why Next.js was structured the way it was, making it easier to follow the WOD instructions and feel more confident in building apps with it.*  
+   *Prompt:*  
+   `"Give me a beginner-friendly explanation of how Next.js works, including its folder structure, routing system, and how it differs from a regular React app."`  
+   *Reflection:* AI filled in conceptual gaps by explaining the /app directory, routing changes, and features like server-side rendering and static site generation. This additional context helped me understand *why* certain steps were taken in the WOD instructions, which made following them feel less like guesswork and more like applying a consistent system.
 
 3. **In-class WODs**  
-   Prompt:  `"How do I improve the following blocks of code? Provide explanations for why."`
-   Reflection: *I use AI after the In-class WODs, the purpose of this was to see what I could improve on. As the In-class WODs were timed, it had more pressure, causing me to make careless mistakes. There are always improvements I can make when I program.*  
+   *Prompt:*  
+   `"How do I improve the following blocks of code? Provide explanations for why."`  
+   *Reflection:* After timed WODs, I used AI to review my solutions, identifying inefficient patterns or syntax mistakes I had overlooked under time pressure. This turned each WOD into a mini post-mortem, where I could analyze my mistakes and learn how to avoid them in future high-pressure settings.
 
 4. **Essays**  
-   Prompt: `"How do I structure this essay in .md?"`
-   Reflection: *I wasn't too familiar with how to format the essays in .md format at first, so the first few essays I used the prompt to figure out and familiarize myself with using structures like 'format', etc..*  
+   *Prompt:*  
+   `"How do I structure this essay in .md?"`  
+   *Reflection:* Early on, I relied on AI to learn markdown formatting for essays, from basic headers and bullet points to proper code block formatting. Over time, I became comfortable enough to use markdown without assistance, but AI helped accelerate that early learning curve.
 
-5. **Final project**  
-   Prompt: `"Provide me a workflow for git push, make sure to avoid messing up the main build."`  
-   Reflection: *As the Final Project was collaborative, I wanted to make sure that what I did in my local side didn't mess up the main build. As I still had much to learn with using git in bash, I wanted to make sure that each of my 'moves' were understood by myself.*  
+5. **Final Project**  
+   *Prompt:*  
+   `"Provide me a workflow for git push, making sure to avoid messing up the main build."`  
+   *Reflection:* AI helped me understand safe Git workflows, including branching strategies, pull requests, and merge conflict prevention. This guidance reduced the risk of overwriting teammates’ work and gave me more confidence in collaborating through GitHub.
 
-6. **Learning a concept / tutorial**  
-   Prompt: `"In Next.js, what does the 'pages' folder do and how does file-based routing work?"`  
-   Reflection: *When I was learning the basics of Next.js, I used AI to clarify some of the simpler concepts like the role of the pages folder and how file-based routing works. AI explained that each file in the pages directory automatically becomes a route in the application — for example, pages/index.js becomes / and pages/about.js becomes /about. This helped me quickly connect the folder structure to the way URLs were generated, which made the tutorials much easier to follow.*  
+6. **Learning a Concept / Tutorial**  
+   *Prompt:*  
+   `"In Next.js, what does the 'pages' folder do and how does file-based routing work?"`  
+   *Reflection:* AI clarified that each file in the pages folder becomes a route, making it easier to connect folder structure with application URLs. This explanation helped me visualize the relationship between code organization and user navigation, making tutorials more intuitive.
 
-7. **Answering a question in class or in Discord**  
-   Prompt: `N/A`
-   Reflection: *As I didn't ask much questions in the Discord, I didn't really see a use in AI for this case. For the questions I asked, they were relatively simple and was concerned with grading.*
+7. **Answering a Question in Class or on Discord**  
+   *Reflection:* I never used AI for this purpose because most questions I asked were grading-related and answered quickly by the instructor or peers. However, knowing AI was available for deeper technical clarifications gave me a safety net if I ever needed to explore a topic further before asking.
 
-8. **Asking or answering a smart-question**  
-   Prompt: `N/A`
-   Reflection: *I didn't see any use of AI in asking or answering a smart-question. As asking a smart question wasn't too difficult, I also didn't answer questions if I didn't know how to answer them.*  
+8. **Asking or Answering a Smart Question**  
+   *Reflection:* I didn’t use AI here, as I was comfortable forming these questions without help. Still, I recognize that AI could be useful for refining a question to make it clearer and more specific if I ever needed assistance in framing a complex query.
 
-9. **Coding example**  
-   Prompt: `"Show me an example of a simple Next.js component that displays a list of items from an array, and explain the code."`  
-   Reflection: *I used AI to get a small example of a functional component in Next.js that maps through an array and displays the items in a list. The AI provided a clean, minimal example, which helped me understand how JSX rendering works in a Next.js page. Even though I could have figured this out on my own, having the example saved me time and gave me a reference I could modify for the WOD.*  
+9. **Coding Example**  
+   *Prompt:*  
+   `"Show me an example of a simple Next.js component that displays a list of items from an array, and explain the code."`  
+   *Reflection:* AI provided a clean example that demonstrated array mapping and JSX rendering in Next.js. Having this concrete example not only saved time but also served as a reusable reference for similar features in other projects.
 
-10. **Explaining code**  
-    Prompt: `"Explain what this Next.js page component does and how it works: <paste code snippet>."`  
-    Reflection: *I asked AI to break down a piece of example code from a practice WOD so I could better understand each part. It went through the imports, the function definition, the return statement, and even explained why certain Next.js conventions were used. This helped me not just memorize the code but also understand the reasoning behind it, which made it easier to adapt the code for different scenarios.*  
+10. **Explaining Code**  
+    *Prompt:*  
+    `"Explain what this Next.js page component does and how it works: <paste code snippet>."`  
+    *Reflection:* AI broke down imports, function definitions, return statements, and Next.js conventions, helping me understand both syntax and intent. This meant I wasn’t just copying code — I understood how to adapt it for new situations.
 
-11. **Writing code**  
-    Prompt: `"Write a Next.js page that fetches JSON data from an API endpoint and displays it in a table."`
-    Reflection: *For a practice exercise, I used AI to help me scaffold out a Next.js page that fetched data from an API. The AI gave me a working example using getStaticProps. I still had to tweak it to match the assignment requirements, but it gave me a solid starting point and saved me from blank-page syndrome.*  
+11. **Writing Code**  
+    *Prompt:*  
+    `"Write a Next.js page that fetches JSON data from an API endpoint and displays it in a table."`  
+    *Reflection:* AI gave me a working scaffold with getStaticProps, which I modified to match assignment requirements. This helped me avoid “blank page syndrome” and focus on refining functionality instead of starting from scratch.
 
-12. **Documenting code**  
-    Prompt: `N/A`
-    Reflection: I already learned a fair amount of how to document code from my previous ICS classes (e.g. ICS211, 212), so using AI wasn't needed.
+12. **Documenting Code**  
+    *Reflection:* I didn’t use AI for documentation, as I had developed strong habits in previous ICS courses. However, AI could have been helpful for generating consistent JSDoc comments or converting technical explanations into more beginner-friendly language.
 
-13. **Quality assurance (e.g., “What’s wrong with this code <code here>” or “Fix the ESLint errors in <code here>”)**  
-    Prompt: `"For the following block of code, I recieved these errors, what went wrong?"`  
-    Reflection: *As we were using many tools, it also came with a fair amount of errors that I wasn't familiar with, especially with errors relating with databases.*  
+13. **Quality Assurance**  
+    *Prompt:*  
+    `"For the following block of code, I received these errors, what went wrong?"`  
+    *Reflection:* AI helped pinpoint the causes of errors, particularly with database-related issues I hadn’t encountered before. It often suggested multiple possible fixes, which encouraged me to experiment and learn through comparison.
 
-14. **Other uses in ICS 314 not listed**  
-    Prompt: `N/A`  
-    Reflection: *I mainly used AI to explain software used in the class.*  
+14. **Other Uses**  
+    *Reflection:* Beyond structured coursework, I mostly used AI to clarify the purpose and function of software tools. It was like having a glossary and tutor rolled into one — ready whenever I hit an unfamiliar term or concept.
 
 ---
 
 ## III. Impact on Learning and Understanding
-*AI tools helped me a lot for topics that had a steep learning curve, such as learning the basics of Next.js or understanding unfamiliar terminal output. They often provided explanations that were simpler and more direct than official documentation, which made it easier to grasp new concepts quickly. However, AI can sometimes get mixed up or provide outdated or incorrect information, which led to errors and occasional misunderstandings. This taught me to treat AI responses as a starting point rather than the final answer, and to always verify the information through testing or official sources.*
+
+AI was especially helpful for steep learning curves, such as understanding Next.js or interpreting unfamiliar terminal output. Its explanations were often more approachable than official documentation, helping me grasp concepts faster. However, AI sometimes produced outdated or incorrect information, reminding me to treat it as a starting point and verify results through testing or trusted sources.
 
 ---
 
 ## IV. Practical Applications
-*Outside of ICS 314, I have been using AI to support a personal hobby project that applies computer vision in Python to analyze bouldering videos. The goal is to process footage to identify movements, track climber positions, and possibly suggest improvements based on body positioning. AI has been especially helpful for learning about relevant Python libraries like OpenCV and MediaPipe, as well as for troubleshooting when I ran into issues with frame extraction and object tracking. While the suggestions weren’t always perfect, AI often provided starting points or alternative approaches that I could refine. This sped up the learning process and made it easier to experiment with different techniques without getting stuck on small details.*
+
+Outside ICS 314, I used AI for a personal project involving computer vision in Python to analyze bouldering videos. It helped me learn libraries like OpenCV and MediaPipe, troubleshoot frame extraction and object tracking, and explore alternative solutions. While not always perfect, AI accelerated my experimentation process.
 
 ---
 
 ## V. Challenges and Opportunities
-*One of the main challenges I faced when using AI was trusting its answers too quickly. Sometimes, AI provided incorrect or outdated code suggestions, especially with frameworks like Next.js that update frequently. This could lead to wasted time debugging problems that came from following the wrong approach. AI explanations could also be vague or oversimplified, which meant I still had to dig into official documentation to fully understand the concept.*
 
-*On the other hand, AI presents significant opportunities for future courses. It can act as an on-demand tutor, providing quick explanations, alternative solutions, and code examples when students are stuck. If integrated carefully, AI could help bridge gaps in understanding without replacing the need for critical thinking and independent problem-solving. With the right balance, AI could make learning more interactive, personalized, and efficient.*
+A major challenge was over-trusting AI answers, especially with rapidly evolving frameworks like Next.js. Incorrect suggestions sometimes led to wasted debugging time. Still, AI offers significant potential as an on-demand tutor, providing quick explanations and examples while encouraging critical thinking.
 
 ---
 
 ## VI. Comparative Analysis
-*Using AI tools versus traditional approaches created a very different learning experience. With AI, I could get answers and examples almost instantly, which kept me engaged and allowed me to move past roadblocks quickly. Traditional approaches — such as reading documentation, searching Stack Overflow, or trial-and-error coding — took more time but often resulted in deeper retention because I had to work through the reasoning myself. I found the best results came from a mix of both: using AI for quick guidance or clarifications, then verifying and expanding my understanding through official sources and hands-on practice.*
+
+AI offered instant guidance and examples, reducing downtime when I was stuck. Traditional methods like documentation and trial-and-error often led to deeper retention. The best approach combined both: using AI for quick direction, then reinforcing knowledge through hands-on practice.
 
 ---
 
 ## VII. Future Considerations
-*I believe AI will play a larger role in software engineering education in the coming years. For ICS 314, it could be integrated as a supplementary learning resource — perhaps with guided AI prompts or an “AI companion” that’s tuned to the course content. This could help students get targeted help without falling into the trap of copying and pasting code without understanding it. The main challenge will be ensuring that AI use supports critical thinking rather than replacing it. Encouraging students to explain AI-generated answers in their own words could be one way to strike this balance.*
+
+AI could be integrated into ICS 314 as a supplementary resource, possibly through guided prompts tailored to course content. This would help students get targeted help while avoiding over-reliance. Encouraging students to restate AI answers in their own words could maintain critical thinking.
 
 ---
 
 ## VIII. Conclusion
-*My experience using AI in ICS 314 showed me that it’s a powerful tool when used responsibly. It helped me tackle steep learning curves, like with Next.js, and provided quick explanations when I didn’t know where to start. However, I also learned that AI isn’t always correct, and relying on it too heavily can lead to misunderstandings. For future courses, I think AI should be encouraged as a research and brainstorming aid rather than a complete solution provider. This way, it can enhance learning while still requiring students to think critically, test solutions, and truly understand the code they write.*
+
+Using AI in ICS 314 proved valuable for tackling steep learning curves and quickly clarifying concepts. However, it also reinforced the need for verification and critical thinking. In the future, AI should be positioned as a research and brainstorming tool rather than a complete solution, ensuring students develop both efficiency and understanding.
