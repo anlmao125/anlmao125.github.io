@@ -13,31 +13,22 @@
 
 .tf-social {
   display: inline-block;
-  height: 1.5em;
   width: 1.5em;
+  height: 1.5em;
   vertical-align: -.1em;
-  transition: 0.2s;
+  transition: color .2s ease, transform .2s ease;
   color: var(--tf-icon-fill);
-}
-
-.tf-social svg {
-  width: 100%;
-  height: 100%;
   fill: currentColor;
   stroke: currentColor;
 }
 
-.tf-social .bi {
-  color: currentColor;
-}
-
-.tf-social:hover {
+.tf-social:hover,
+a:hover .tf-social {
   color: var(--tf-icon-hover);
+  transform: scale(1.05);
 }
 
-a {
-  text-decoration: none;
-}
+a { text-decoration: none; }
 
 @media (max-width: 500px) {
   .navbar-brand { display: none; }
