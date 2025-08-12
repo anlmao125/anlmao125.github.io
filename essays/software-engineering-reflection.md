@@ -11,7 +11,7 @@ labels:
 ---
 
 <div class="text-center mb-4">
-  <img style="width:60%;" class="img-fluid rounded pe-4 shadow" src="../img/software-engineering-reflection/keyboard-bash-git.png" alt="Bash and Git Workflow">
+  <img style="width:60%; margin:auto;" class="img-fluid rounded shadow" src="../img/software-engineering-reflection/keyboard-bash-git.png" alt="Bash and Git Workflow">
 </div>
 
 ## More Than Just Web Development
