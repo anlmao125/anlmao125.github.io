@@ -1,4 +1,4 @@
-/* Default theme. Simple, yet elegant. */
+/* Default theme. Simple, yet elegant with a modern touch */
 
 /* Use Open Sans as the default sans serif font. */
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,700|Source+Code+Pro:300,400,500,700");
@@ -6,10 +6,11 @@
 /* See https://getbootstrap.com/docs/5.2/customize/css-variables/#root-variables for variables to override. */
 :root {
   --bs-font-sans-serif: "Open Sans", sans-serif;
-  --bs-link-color: var(--bs-blue);
+  --bs-link-color: #0d6efd; /* Slightly brighter bootstrap blue */
+  --bs-link-hover-color: #0a58ca; /* Darker on hover for better contrast */
   --tf-pill-bg: var(--bs-gray);
-  --tf-icon-fill: var(--bs-gray);
-  --tf-icon-hover: var(--bs-gray-500);
+  --tf-icon-fill: var(--bs-gray-600);
+  --tf-icon-hover: var(--bs-blue);
   --tf-page-bg-color: var(--bs-white);
   --tf-footer-bg-color: var(--bs-gray-200);
   --tf-projects-bg-color: var(--bs-gray-100);
@@ -22,17 +23,25 @@
   height: 1.5em;
   vertical-align: -.1em;
   width: 1.5em;
-  transition: 0.2s;
+  transition: fill 0.25s ease, transform 0.2s ease;
 }
 
 .tf-social:hover {
   fill: var(--tf-icon-hover);
+  transform: scale(1.1);
 }
 
 a {
   text-decoration: none;
+  color: var(--bs-link-color);
+  transition: color 0.2s ease;
 }
 
+a:hover {
+  color: var(--bs-link-hover-color);
+}
+
+/* Mobile brand visibility */
 @media (max-width: 500px) {
   .navbar-brand {
     display: none;
@@ -43,8 +52,10 @@ a {
   }
 }
 
-/* Simplify the styling of the bottom of Essay cards. */
+/* Simplify and clean the bottom of Essay cards */
 .card-footer {
   background-color: var(--bs-white);
   border-top: none;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
 }
